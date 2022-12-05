@@ -15,14 +15,9 @@
 1. CSS and HTML
 2. JS
    - work with DOM elements
-3. SEO   
+3. SEO
+4. Inthernet marketing 
 ---
+## About me
 
-![css](http://p2577172.beget.tech/img/slider/certificatcss.webp){: height="200" width="200" align="left"}
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="http://p2577172.beget.tech/img/slider/certificatejs.webp" alt="js" width="200"/>
-
-<img src="http://p2577172.beget.tech/img/slider/certificat%D0%A1%D0%95%D0%9E.webp" alt="seo" width="400"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="http://p2577172.beget.tech/img/slider/market.jpg" alt="marketing" width="400"/>
+_I'm 39, I want to radically change the field of activity. And since my hobby was to learn something new, I decided to try my hand at layout. In my very humble opinion, the layout was given to me. Now it's the turn for JS, I really want not only to know DOMElement, but also to be able to write programs._
