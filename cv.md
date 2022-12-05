@@ -21,3 +21,8 @@
 ## About me
 
 _I'm 39, I want to radically change the field of activity. And since my hobby was to learn something new, I decided to try my hand at layout. In my very humble opinion, the layout was given to me. Now it's the turn for JS, I really want not only to know DOMElement, but also to be able to write programs._
+
+_He took basic courses in layout (CSS, HTML, JS), SEO and Internet marketing. 
+I got most of my knowledge by studying on my own._
+
+_I'm trying to work as a freelancer._
