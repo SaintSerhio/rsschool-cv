@@ -18,9 +18,10 @@
 3. SEO   
 ---
 
-<img src="http://p2577172.beget.tech/img/slider/certificatcss.webp" alt="css" width="400"/>
+![css](http://p2577172.beget.tech/img/slider/certificatcss.webp){: height="200" width="200" align="left"}
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="http://p2577172.beget.tech/img/slider/certificatejs.webp" alt="js" width="400"/>
+<img src="http://p2577172.beget.tech/img/slider/certificatejs.webp" alt="js" width="200"/>
 
 <img src="http://p2577172.beget.tech/img/slider/certificat%D0%A1%D0%95%D0%9E.webp" alt="seo" width="400"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
