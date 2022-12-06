@@ -30,8 +30,6 @@ _I'm trying to work as a freelancer._
 4. __Inthernet marketing__
 5. __Figma and Marsy__
 6. __English level A1__ (in the learning process)
-7. __education secondary__
----
 
 ## Code registration codewars
 
@@ -61,3 +59,14 @@ if (listContact) {
 ```
 
 ***
+
+## Education
+* __Corses__ _Stepik.org_
+    1. SEO
+    2. HTML and CSS
+    3. JS
+    4. trainer plugin emmet
+    5. Internet marketing
+       * __Corses in the procces of passing__
+            1. yandex introduction to programming (C++)
+            2. Python for beginners
