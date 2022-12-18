@@ -1,0 +1,244 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul, li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.wrapper {
+    max-width: 1440px;
+    background-color: rgb(58, 59, 61);
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 20px;
+    overflow: hidden;
+    background-color: rgb(209, 202, 193);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    gap: 30px;
+}
+
+.photo {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo__autor {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+}
+
+.info__studenta {
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+.name__studenta {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.profession__studenta {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+/***************************************/
+
+.about__me {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.title {
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: rgb(10, 3, 97);
+    padding-bottom: 30px;
+}
+
+.text-about {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+/***************************************/
+
+.three__column {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 33.333%;
+    margin-bottom: 120px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact__me {
+    background-color: #0e0e0e;
+}
+
+.my__skills {
+    background-color: #0e0e0e;
+}
+
+.education {
+    background-color: #0e0e0e;
+}
+
+.contact__title {
+    color: rgb(230, 157, 63);
+    text-align: center;
+}
+
+.skills__title {
+    color: rgb(230, 157, 63);
+    text-align: center;
+}
+
+.list {
+    font-size: 18px;
+    color: rgb(209, 202, 193);
+}
+
+.item__list {
+    padding: 15px;
+}
+
+.item__list a {
+    color: rgb(230, 157, 63);
+}
+
+.item__list a:hover {
+    color: rgb(209, 202, 193);
+}
+
+
+/*******************************/
+
+.my__code {
+    margin-bottom: 120px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+}
+
+@media (max-width: 800px) {
+    .my__code-dom {
+        margin-left: -30%;
+    }
+}
+
+@media (max-width: 600px) {
+    .my__code-dom {
+        margin-left: -40%;
+    }
+}
+
+@media (max-width: 550px) {
+    .my__code-dom {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .my__code-dom {
+        margin-left: -45%;
+        font-size: 8px;
+    }
+}
+
+/*************************/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0e0e0e;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer__text {
+    font-size: 24px;
+    color: rgb(209, 202, 193);
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+}
+
+.rsslogo {
+    width: 100%;
+    height: 100%;
+}
+
+
+.my__git {
+    font-size: 24px;
+    color: rgb(230, 157, 63);
+}
