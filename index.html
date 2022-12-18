@@ -4,11 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Rsschoole-cv</title>
 </head>
 <body>
-    <div class="container">
-        
-    </div>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="photo">
+                    <img src="assets/images/header/i am anphase.jpg" alt="creator-cv" class="photo__autor">
+                </div>
+                <section class="info__studenta">
+                    <h1 class="name__studenta">Sergei Bulankin</h1>
+                    <h2 class="profession__studenta">Front-end web developer (Beginner)</h2>
+                </section>    
+            </header>
+            <main>
+                <section class="about__me">
+                    <h3 class="title__about-me title">About me</h3>
+                    <h4 class="text-about">
+                        I'm 39, I want to radically change the field of activity. And since my hobby was to learn something new, I decided to try my hand at layout. In my very humble opinion, the layout was given to me. Now it's the turn for JS, I really want not only to know DOMElement, but also to be able to write programs.
+                        <br>He took basic courses in layout (CSS, HTML, JS), SEO and Internet marketing. I got most of my knowledge by studying on my own.
+                        <br>I'm trying to work as a freelancer.
+                    </h4>
+                </section>
+                <div class="three__column">
+                    <nav class="contact__me">
+                        <h3 class="contact__title title">Contact me</h3>
+                        <ul class="list">
+                            <li class="item__list">Address: country:Belarus city:Minsk st.Soltysa</li>
+                            <li class="item__list">Viber and number phone +375 (25) 771-90-27</li>
+                            <li class="item__list">telegram nickName СантаМаус</li>
+                            <li class="item__list"><a href="https://vk.com/santamous" target="_blank">vk.com Сергей Буданкин</a></li>
+                            <li class="item__list"><a href="http://p2577172.beget.tech/" target="_blank">My landing</a></li>
+                        </ul>
+                    </nav>
+                    <section class="my__skills">
+                        <h3 class="skills__title title">My Skills</h3>
+                        <ul class="list">
+                            <li class="item__list">CSS and HTML</li>
+                            <li class="item__list">JS (in the learning process)</li>
+                            <li class="item__list">SEO</li>
+                            <li class="item__list">Inthernet marketing</li>
+                            <li class="item__list">Figma and Marsy</li>
+                            <li class="item__list">English level A1 (in the learning process)</li>
+                        </ul>
+                    </section>
+                    <section class="education">
+                        <h3 class="skills__title title">Corses Stepik.org</h3>
+                        <ul class="list">
+                            <li class="item__list"><a href="https://stepik.org/cert/1546350">JS</a></li>
+                            <li class="item__list"><a href="https://stepik.org/cert/1603771">trainer plugin emmet</a></li>
+                            <li class="item__list"><a href="https://stepik.org/cert/1070449">SEO</a></li>
+                            <li class="item__list"><a href="https://stepik.org/cert/1742165">Inthernet marketing</a></li>
+                            <li class="item__list"><a href="https://stepik.org/cert/1070816">CSS and HTML</a></li>
+                        </ul>
+                    </section>
+                </div>
+                <section class="my__code">
+                    <h3 class="my__code title">Code example</h3>
+                    <h4 class="subtitle">The code for working with the modal window, tracking the click on the element and then changing styles. Probably the easiest thing to work with DOM.</h4>
+                    <pre class="my__code-dom">
+                        <code class="codes">
+                            const contactBtn = document.querySelector('.contact'),
+                                  listContact = document.querySelector('.contact__my');
+                      
+                        
+                            if (contactBtn){
+                                contactBtn.addEventListener("click", function () {
+                                listContact.classList.toggle('open');
+                            })
+                            }
+                        
+                            if (listContact) {
+                                listContact.addEventListener("click", function () {
+                                    listContact.classList.remove('open');
+                                })
+                            }
+                        </code>
+                    </pre>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__text">&#169 Sergei Bulankin</div>
+                <div class="footer__logo">
+                    <a href="https://rs.school/js/"><img src="/assets/images/footer/rs_school_js.svg" alt="Rsschoole logo" class="rsslogo"></a>
+                </div>
+                <div class="footer__git">
+                    <a href="https://github.com/SaintSerhio" class="my__git">My github</a>
+                </div>
+            </footer>
+        </div>
+    </div>    
 </body>
 </html>
