@@ -39,12 +39,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 .wrapper {
-    max-width: 1440px;
+    width: 100%;
     background-color: rgb(58, 59, 61);
 }
 
 .container {
-    width: 100%;
+    width: 1440px;
     margin: 0px auto;
     padding: 0px 20px;
     overflow: hidden;
