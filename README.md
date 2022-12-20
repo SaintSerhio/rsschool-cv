@@ -1,2 +1,2 @@
 ![](https://saintserhio.github.io/rsschool-cv/cv)
-![](https://saintserhiop.github.io/rsschool-cv/)
+![](https://saintserhio.github.io/rsschool-cv/)
