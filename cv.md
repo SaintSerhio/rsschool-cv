@@ -30,7 +30,7 @@ _I'm trying to work as a freelancer._
 4. __Inthernet marketing__
 5. __Figma and Marsy__
 6. __English level A1__ (in the learning process)
-
+********
 ## Code registration codewars
 
 ```
