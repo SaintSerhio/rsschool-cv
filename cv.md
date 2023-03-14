@@ -7,7 +7,7 @@
 * Address: country:__Belarus__ city:__Minsk__ st.__Soltysa__
 * Viber and number phone **+375 (25) 771-90-27**
 * telegram nickName __СантаМаус__
-* vk.com [Сергей Буданкин](https://vk.com/id672401781)
+* vk.com [Сергей Буланкин](https://vk.com/id672401781)
 * [My landing](http://p2577172.beget.tech/)
 ******
     
